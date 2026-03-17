@@ -7,17 +7,3 @@ try:
 except ZeroDivisionError as error:
     print(f"Erro: {error}")
 
-"""
-try:
-    num = int(input("Digite um número: "))
-    resultado = 10 / num
-except ValueError:
-    print("Erro: valor inválido! Digite um número.")
-except ZeroDivisionError:
-    print("Erro: não divida por zero!")
-else:
-    print(f"Resultado: {resultado}")
-finally:
-    print("Fim da execução.")
-
-"""
